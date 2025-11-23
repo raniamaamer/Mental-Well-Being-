@@ -9,7 +9,7 @@ class Config:
     """Configuration de base pour l'application"""
     
     # Base de données
-    SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 'sqlite:///mental_wellbeing.db')
+    SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 'sqlite:///Mental.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     
     # Sécurité
